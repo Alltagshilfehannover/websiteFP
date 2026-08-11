@@ -423,3 +423,24 @@
     tgls.forEach(function (t) { t.setAttribute('aria-checked', 'false'); });
   });
 })();
+
+/* --------------------- Galerie „Unsere Arbeit": Filter ------------------- */
+(function () {
+  'use strict';
+  var tabs = document.querySelectorAll('.gal__tab');
+  if (!tabs.length) return;
+  var items = document.querySelectorAll('.gal__item');
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      var kat = t.getAttribute('data-gal');
+      tabs.forEach(function (x) {
+        var on = x === t;
+        x.classList.toggle('is-active', on);
+        x.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      items.forEach(function (it) {
+        it.classList.toggle('is-out', kat !== 'alle' && it.getAttribute('data-kat') !== kat);
+      });
+    });
+  });
+})();
