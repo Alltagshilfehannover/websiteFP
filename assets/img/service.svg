@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFF7FC"/><stop offset="1" stop-color="#D6EAF6"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#8FD8EC" stop-opacity=".45"/></linearGradient>
+<linearGradient id="deep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F6E9E"/><stop offset="1" stop-color="#35B4D8"/></linearGradient>
+</defs>
+<rect width="900" height="520" fill="url(#sky)"/>
+
+<g fill="none" stroke="#C3D5E1" stroke-width="4" stroke-dasharray="10 12"><path d="M180 260h180M540 260h180"/></g>
+<circle cx="120" cy="260" r="88" fill="#0F6E9E"/><circle cx="450" cy="260" r="88" fill="#35B4D8"/><circle cx="780" cy="260" r="88" fill="#0A5478"/>
+<g stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M96 238a34 34 0 0 1 48 0M100 276h40M120 238v38" transform="translate(0,0)"/>
+</g>
+<g stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(450,260)">
+<rect x="-30" y="-36" width="60" height="72" rx="6"/><path d="M-14 -14h28M-14 4h28M-14 22h16"/>
+</g>
+<g stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(780,260)">
+<path d="M-34 4l22 22 46-52"/>
+</g>
+</svg>

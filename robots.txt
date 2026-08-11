@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fensterputz-service.de/sitemap.xml

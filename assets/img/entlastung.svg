@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFF7FC"/><stop offset="1" stop-color="#D6EAF6"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#8FD8EC" stop-opacity=".45"/></linearGradient>
+<linearGradient id="deep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F6E9E"/><stop offset="1" stop-color="#35B4D8"/></linearGradient>
+</defs>
+<rect width="900" height="520" fill="url(#sky)"/>
+
+<rect x="70" y="90" width="360" height="340" rx="16" fill="#0A5478"/>
+<rect x="86" y="106" width="328" height="308" rx="9" fill="url(#glass)"/>
+<path d="M250 106v308M86 260h328" stroke="#0A5478" stroke-width="10"/>
+<path d="M120 216 L178 158" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".85"/>
+<path d="M286 370 L344 312" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".5"/>
+<rect x="500" y="130" width="330" height="260" rx="18" fill="#fff" stroke="#C3D5E1" stroke-width="3"/>
+<rect x="532" y="168" width="180" height="18" rx="9" fill="#D6EAF6"/>
+<rect x="532" y="204" width="120" height="14" rx="7" fill="#EFF7FC"/>
+<text x="532" y="300" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="66" font-weight="800" fill="#0F6E9E">131 €</text>
+<rect x="532" y="326" width="230" height="14" rx="7" fill="#D6EAF6"/>
+<rect x="532" y="352" width="160" height="14" rx="7" fill="#EFF7FC"/>
+<circle cx="792" cy="176" r="26" fill="#35B4D8"/>
+<path d="M780 177l9 9 16-18" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
